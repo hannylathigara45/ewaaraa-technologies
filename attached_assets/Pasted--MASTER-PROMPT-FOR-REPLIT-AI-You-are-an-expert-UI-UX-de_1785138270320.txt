@@ -1,0 +1,642 @@
+# MASTER PROMPT FOR REPLIT AI
+
+You are an expert UI/UX designer, senior full-stack web developer, branding specialist, motion designer, and SEO expert.
+
+Your task is to design and develop a **premium, modern, luxury, highly animated, responsive, and professional corporate website** for a software IT company named **EWAARAA TECHNOLOGIES**.
+
+Do NOT create a basic business website.
+
+The website should look like it belongs to a multi-million dollar technology company with the design quality of Apple, Stripe, Vercel, Framer, Linear, Notion, Microsoft, and AWS.
+
+The entire website should feel premium, futuristic, elegant, trustworthy, and rich.
+
+---
+
+# Company Information
+
+Company Name:
+**EWAARAA TECHNOLOGIES**
+
+Industry:
+Software Development Company
+
+Business Type:
+IT Services & Software Solutions
+
+Contact Number:
++91 9664703388
+
+Email:
+[ewaaraatech@gmail.com](mailto:ewaaraatech@gmail.com)
+
+Locations:
+Rajkot & Gandhinagar, Gujarat, India
+
+Tagline:
+**Building Digital Excellence. Powering Tomorrow.**
+
+---
+
+# Design Requirements
+
+Create an extremely premium UI.
+
+Avoid ordinary templates.
+
+Use luxurious spacing and professional layouts.
+
+Every section should have smooth animations.
+
+Everything should feel alive.
+
+The website should impress clients immediately.
+
+---
+
+# Theme
+
+Create a premium dark luxury theme.
+
+Background:
+Deep Charcoal (#0B0B0F)
+
+Secondary Background:
+#121218
+
+Cards:
+#18181F
+
+Accent Colors:
+
+Royal Blue
+
+Electric Cyan
+
+Purple Gradient
+
+Golden Highlights (used minimally)
+
+White Text
+
+Light Grey Paragraphs
+
+Use beautiful gradients throughout the website.
+
+Give the website a soft creamy glass texture.
+
+Use Glassmorphism only where appropriate.
+
+Add subtle glowing borders.
+
+Create depth using layered gradients.
+
+Use blur effects.
+
+Use premium shadows.
+
+Nothing should look flat.
+
+---
+
+# Typography
+
+Use bold premium Google Fonts.
+
+Headings:
+Space Grotesk
+
+or
+
+Sora
+
+Body Text:
+Inter
+
+Buttons:
+Bold
+
+Large
+
+Modern
+
+Luxury
+
+Headings should be big, powerful, and visually striking.
+
+---
+
+# Animations
+
+Use Framer Motion.
+
+Every section should animate while scrolling.
+
+Use:
+
+Fade Up
+
+Fade Left
+
+Fade Right
+
+Scale
+
+Rotate slightly
+
+Text reveal
+
+Image reveal
+
+Smooth hover animations
+
+Floating icons
+
+Parallax backgrounds
+
+Gradient movement
+
+Animated blobs
+
+Mouse interaction
+
+Cursor glow
+
+Smooth scrolling
+
+Page transitions
+
+Animated counters
+
+Animated cards
+
+Hover elevation
+
+Button ripple effects
+
+FAQ accordion animations
+
+Navbar hide/show on scroll
+
+Everything should feel fluid.
+
+---
+
+# Website Sections
+
+---
+
+## 1. Hero Section
+
+Create a full-screen hero.
+
+Large bold heading:
+
+"Transforming Ideas Into Powerful Digital Solutions"
+
+Subtitle:
+
+We design, develop, and scale modern software solutions that help startups, enterprises, and businesses grow faster.
+
+Buttons:
+
+Start Your Project
+
+Explore Services
+
+Background:
+
+Animated gradient
+
+Floating shapes
+
+Glowing particles
+
+Animated coding elements
+
+Professional software-themed illustration.
+
+---
+
+## 2. About Us
+
+Create a premium About section.
+
+Company introduction.
+
+Mission
+
+Vision
+
+Values
+
+Animated Statistics:
+
+30+
+
+Projects Delivered
+
+50+
+
+Happy Clients
+
+2+
+
+Years Experience
+
+100%
+
+Client Satisfaction
+
+Each statistic should count up while scrolling.
+
+---
+
+## 3. Our Services
+
+Create premium service cards.
+
+Services:
+
+Custom Software Development
+
+Website Development
+
+Web Applications
+
+Mobile App Development
+
+UI/UX Design
+
+Cloud Solutions
+
+API Development
+
+E-Commerce Development
+
+CRM Solutions
+
+ERP Solutions
+
+AI Integration
+
+Maintenance & Support
+
+Each card should have:
+
+Modern icon
+
+Hover animation
+
+Gradient border
+
+Glowing effect
+
+Short description
+
+---
+
+## 4. Why Choose EWAARAA TECHNOLOGIES
+
+Create premium comparison cards.
+
+Include:
+
+Expert Team
+
+Latest Technologies
+
+Fast Delivery
+
+Affordable Pricing
+
+Scalable Architecture
+
+24/7 Support
+
+Client-first Approach
+
+Secure Development
+
+Quality Assurance
+
+Agile Methodology
+
+Animated icons.
+
+Hover effects.
+
+---
+
+## 5. Portfolio & Projects
+
+Create a beautiful portfolio.
+
+Modern filter buttons:
+
+Website
+
+Mobile Apps
+
+Dashboard
+
+Software
+
+UI Design
+
+E-Commerce
+
+Each project card includes:
+
+Large image
+
+Project title
+
+Technology stack
+
+Category
+
+Short description
+
+View Project button
+
+Use beautiful hover animations.
+
+Create at least 8 premium project cards.
+
+Use realistic placeholder project images.
+
+---
+
+## 6. Founder & CEO
+
+Create a premium Founder section.
+
+Large circular photo placeholder.
+
+Name:
+
+Founder & CEO
+
+EWAARAA TECHNOLOGIES
+
+Professional message:
+
+"Our vision is to empower businesses through innovation, technology, and creativity while delivering world-class software solutions."
+
+Include:
+
+LinkedIn icon
+
+GitHub icon
+
+Email icon
+
+Professional signature design.
+
+---
+
+## 7. FAQ
+
+Beautiful accordion.
+
+Questions like:
+
+Why choose EWAARAA TECHNOLOGIES?
+
+What technologies do you use?
+
+How long does development take?
+
+Do you provide maintenance?
+
+Can you redesign existing software?
+
+How much does a project cost?
+
+Do you build mobile apps?
+
+Do you provide UI/UX design?
+
+Animated open/close.
+
+---
+
+## 8. Contact Us
+
+Modern contact section.
+
+Left:
+
+Contact information.
+
+Phone
+
+Email
+
+Locations
+
+Business hours
+
+Right:
+
+Beautiful contact form.
+
+Fields:
+
+Name
+
+Email
+
+Phone
+
+Company
+
+Service
+
+Budget
+
+Message
+
+Submit Button
+
+Include Google Maps placeholder.
+
+---
+
+# Navigation
+
+Sticky transparent navbar.
+
+Company logo on left.
+
+Navigation links:
+
+Home
+
+About
+
+Services
+
+Portfolio
+
+Founder
+
+FAQs
+
+Contact
+
+CTA Button:
+
+Get Quote
+
+Smooth scrolling.
+
+Mobile menu animation.
+
+---
+
+# Footer
+
+Professional footer.
+
+Company description.
+
+Quick links.
+
+Services.
+
+Contact.
+
+Social media icons.
+
+Newsletter subscription.
+
+Copyright.
+
+Back to top button.
+
+---
+
+# Additional Premium Features
+
+Dark Mode (default)
+
+Custom loading screen
+
+Animated progress bar
+
+Floating WhatsApp button
+
+Scroll-to-top button
+
+Cursor glow effect
+
+Animated background particles
+
+Gradient text effects
+
+Premium button animations
+
+Glassmorphism sections
+
+Lazy loading images
+
+SEO optimized HTML structure
+
+Fast performance
+
+Accessibility support
+
+Responsive design
+
+Micro interactions
+
+Interactive hover effects
+
+Animated counters
+
+Professional illustrations
+
+Premium SVG icons
+
+Modern testimonials carousel (add 5 realistic client testimonials)
+
+Trusted By section
+
+Technology Stack section
+
+Development Process timeline
+
+Call-To-Action banner before footer
+
+---
+
+# Technologies
+
+Use:
+
+React (latest)
+
+Vite
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+React Icons
+
+Lucide Icons
+
+GSAP (where beneficial)
+
+React Router
+
+Responsive Layout
+
+Component-based architecture
+
+Clean folder structure
+
+Reusable components
+
+Proper comments
+
+SEO-friendly metadata
+
+Optimized images
+
+---
+
+# Performance
+
+Ensure:
+
+95+ Lighthouse Score
+
+Mobile-first
+
+Fast loading
+
+Optimized assets
+
+Lazy loading
+
+Semantic HTML
+
+Accessibility best practices
+
+No layout shifts
+
+---
+
+# Final Output
+
+Generate the complete production-ready website in one go.
+
+Create all pages, components, assets, routing, animations, responsive layouts, and styling without placeholders for layout or unfinished sections.
+
+The code should be clean, modular, scalable, and ready to run immediately in Replit.
+
+The final result should look like a premium international software company website capable of attracting enterprise clients and making an exceptional first impression.

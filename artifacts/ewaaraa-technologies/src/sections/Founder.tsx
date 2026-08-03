@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
-import founderImg from '@assets/founder.jpg';
+import founderImg from '@assets/founder.jpeg';
 
 export function Founder() {
   return (
@@ -46,16 +46,14 @@ export function Founder() {
               </blockquote>
               
               <div className="flex items-center gap-4 mb-8">
-                {[FaLinkedinIn, FaGithub, FaEnvelope].map((Icon, i) => (
-                  <a key={i} href="#" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-white/60 hover:bg-primary hover:text-white hover:border-primary transition-all cursor-none">
+                {[
+                  { Icon: FaLinkedinIn, href: "https://www.linkedin.com/in/hanny-lathigara-b79071396/?isSelfProfile=true" },
+                  { Icon: FaEnvelope, href: "mailto:hannylathigara@gmail.com" }
+                ].map(({ Icon, href }, i) => (
+                  <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-white/60 hover:bg-primary hover:text-white hover:border-primary transition-all cursor-none">
                     <Icon size={20} />
                   </a>
                 ))}
-              </div>
-              
-              {/* Stylized Signature */}
-              <div className="font-display text-4xl text-white/20 select-none opacity-50 font-script">
-                Founder Signature
               </div>
             </motion.div>
           </div>

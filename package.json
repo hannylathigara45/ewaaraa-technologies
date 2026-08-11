@@ -4,10 +4,10 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
-    "dev": "pnpm --filter @workspace/api-server dev & pnpm --filter @workspace/ewaaraa-technologies dev",
-    "build": "pnpm run typecheck && pnpm --filter @workspace/ewaaraa-technologies build && pnpm --filter @workspace/api-server build",
+    "dev": "npx pnpm --filter @workspace/api-server dev & npx pnpm --filter @workspace/ewaaraa-technologies dev",
+    "build": "npx pnpm run typecheck && npx pnpm --filter @workspace/ewaaraa-technologies build && npx pnpm --filter @workspace/api-server build",
     "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
+    "typecheck": "npx pnpm run typecheck:libs && npx pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
   },
   "private": true,
   "dependencies": {

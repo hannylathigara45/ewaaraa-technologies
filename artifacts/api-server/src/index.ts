@@ -1,3 +1,11 @@
+import path from "path";
+
+try {
+  process.loadEnvFile(path.resolve(import.meta.dirname, "../../../.env"));
+} catch (e) {
+  // Ignore if not found
+}
+
 import app from "./app";
 import { logger } from "./lib/logger";
 

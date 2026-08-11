@@ -118,6 +118,17 @@ globalThis.__dirname = __bannerPath.dirname(globalThis.__filename);
     `,
     },
   });
+
+  // Copy frontend public assets to API server dist/public
+  const { cp } = await import("node:fs/promises");
+  const frontendDist = path.resolve(artifactDir, "../ewaaraa-technologies/dist/public");
+  const apiServerPublic = path.resolve(distDir, "public");
+  try {
+    await cp(frontendDist, apiServerPublic, { recursive: true });
+    console.log("Successfully copied frontend build to API server dist/public");
+  } catch (err) {
+    console.warn("Could not copy frontend build (it may not have been built yet):", err.message);
+  }
 }
 
 buildAll().catch((err) => {

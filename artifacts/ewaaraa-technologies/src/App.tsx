@@ -21,7 +21,6 @@ import { WhyChoose } from '@/sections/WhyChoose';
 import { TechStack } from '@/sections/TechStack';
 import { Portfolio } from '@/sections/Portfolio';
 import { Timeline } from '@/sections/Timeline';
-import { Testimonials } from '@/sections/Testimonials';
 import { Founder } from '@/sections/Founder';
 import { FAQ } from '@/sections/FAQ';
 import { CTA } from '@/sections/CTA';
@@ -50,7 +49,6 @@ function Home() {
             <TechStack />
             <Portfolio />
             <Timeline />
-            <Testimonials />
             <Founder />
             <FAQ />
             <CTA />

@@ -29,6 +29,24 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+import path from "path";
+
 app.use("/api", router);
+
+// Serve static assets
+const publicPath = path.resolve(__dirname, "public");
+app.use(express.static(publicPath));
+
+// Fallback all non-API requests to index.html for client-side routing
+app.get("*any", (req, res, next) => {
+  if (req.path.startsWith("/api")) {
+    return next();
+  }
+  res.sendFile(path.join(publicPath, "index.html"), (err) => {
+    if (err) {
+      next();
+    }
+  });
+});
 
 export default app;

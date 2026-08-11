@@ -37,7 +37,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-white/40 text-sm font-medium mb-1">Email Us</p>
-                    <p className="text-white font-medium">ewaaraatech@gmail.com</p>
+                    <p className="text-white font-medium">ewaaraatechnologies@gmail.com</p>
                   </div>
                 </div>
                 

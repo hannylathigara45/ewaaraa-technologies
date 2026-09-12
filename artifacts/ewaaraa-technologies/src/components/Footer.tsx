@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedinIn, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 export function Footer() {
   const scrollTo = (id: string) => {
@@ -22,10 +22,28 @@ export function Footer() {
               Building Digital Excellence. Powering Tomorrow. We design, develop, and scale modern software solutions for visionary businesses.
             </p>
             <div className="flex gap-4">
-              {[FaLinkedinIn, FaGithub, FaTwitter, FaInstagram].map((Icon, i) => (
+              {[
+                {
+                  Icon: FaLinkedinIn,
+                  href: "https://www.linkedin.com/in/ewaaraa-technologies-bbb3a0436?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+                  label: "LinkedIn",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                },
+                {
+                  Icon: FaTwitter,
+                  href: "https://x.com/ewaaraa",
+                  label: "Twitter",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                },
+              ].map(({ Icon, href, label, target, rel }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={href}
+                  target={target}
+                  rel={rel}
+                  aria-label={label}
                   className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white/60 hover:bg-primary hover:text-white transition-all cursor-none"
                 >
                   <Icon size={18} />
@@ -73,7 +91,7 @@ export function Footer() {
               </li>
               <li>
                 <strong className="block text-white/80 mb-1">Email</strong>
-                ewaaraatech@gmail.com
+                ewaaraatechnologies@gmail.com
               </li>
               <li>
                 <strong className="block text-white/80 mb-1">Location</strong>

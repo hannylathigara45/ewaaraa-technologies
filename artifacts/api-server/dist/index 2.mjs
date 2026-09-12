@@ -28204,7 +28204,7 @@ var require_pino = __commonJS({
     function pinoBundlerAbsolutePath(p) {
       try {
         const path3 = __require("path");
-        const outputDir = "/Users/hannylathigara/Desktop/ewaaraa-technologies/artifacts/api-server/dist";
+        const outputDir = "/Users/slangmedia/Desktop/PARTH HADIYAL/ewaaraa-technologies/artifacts/api-server/dist";
         return path3.resolve(outputDir, p.replace(/^\.\//, ""));
       } catch (e) {
         const f = new Function("p", "return new URL(p, import.meta.url).pathname");
@@ -32637,7 +32637,12 @@ try {
   process.loadEnvFile(path2.resolve(import.meta.dirname, "../../../.env"));
 } catch (e) {
 }
-var rawPort = process.env["PORT"] || "5001";
+var rawPort = process.env["PORT"];
+if (!rawPort) {
+  throw new Error(
+    "PORT environment variable is required but was not provided."
+  );
+}
 var port = Number(rawPort);
 if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);

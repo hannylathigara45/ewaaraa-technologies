@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
 import founderImg from '@assets/founder.jpeg';
 
 export function Founder() {
@@ -21,7 +21,7 @@ export function Founder() {
               <div className="aspect-[4/5] rounded-2xl overflow-hidden border border-white/10 relative">
                 <img 
                   src={founderImg} 
-                  alt="Founder & CEO" 
+                  alt="Hanny Lathigara - Founder & CEO" 
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
@@ -37,9 +37,10 @@ export function Founder() {
             >
               <h2 className="text-sm font-medium text-primary uppercase tracking-widest mb-2">Leadership</h2>
               <h3 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
-                Founder & CEO
+                Hanny Lathigara
               </h3>
-              <p className="text-xl text-white/40 font-display mb-8">EWAARAA TECHNOLOGIES</p>
+              <p className="text-xl text-primary font-medium mb-1">Founder & CEO</p>
+              <p className="text-lg text-white/40 font-display mb-8">EWAARAA TECHNOLOGIES</p>
               
               <blockquote className="text-xl md:text-2xl text-white/80 leading-relaxed mb-8 italic">
                 "Our vision is to empower businesses through innovation, technology, and creativity while delivering world-class software solutions. We don't just write code; we engineer the future."
